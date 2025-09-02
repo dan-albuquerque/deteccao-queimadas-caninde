@@ -1,0 +1,6 @@
+venv/
+.env
+runs/
+Forest-fire-1/
+# Arquivos de modelo YOLO
+*.pt
