@@ -21,9 +21,9 @@ model = YOLO("yolov8n.pt")
 # treinamento
 
 model.train(
-    data='Forest-fire-1/data.yaml',
-    imgsz=416,  # Tamanho da imagem reduzidoadici
-    epochs=60,
+    data='projetos6/Forest-fire-1/data.yaml',
+    imgsz=416,  # Tamanho da imagem reduzido
+    epochs=70,
     batch=8,
     workers=6, 
     device=0    # usa GPU
